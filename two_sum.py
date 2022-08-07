@@ -18,9 +18,16 @@ class Solution:
             hashmap[nums[i]] = i
 
 
+
 res = Solution()
 
 nums = [2, 7, 11, 15]
 target = 9
+out = res.twoSum(nums, target)
+print(f'nums: {nums} target: {target} The output array: {out}')
+
+
+nums = [3, 3]
+target = 6
 out = res.twoSum(nums, target)
 print(f'nums: {nums} target: {target} The output array: {out}')
