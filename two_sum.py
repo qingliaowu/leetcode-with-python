@@ -7,6 +7,7 @@
 
 class Solution:
     # frm python 3.9, we have list support
+    # https://stackoverflow.com/questions/52629265/static-typing-in-python3-list-vs-list
     def twoSum(self, nums: list[int], target: int) -> list[int]:
         # Dictionary can be used as hashmap or hash table in python
         hashmap = {}
